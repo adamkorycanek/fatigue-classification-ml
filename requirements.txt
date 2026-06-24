@@ -4,4 +4,4 @@ matplotlib
 scikit-learn
 joblib
 openpyxl
-streamlit   # pokud dáš UI
+streamlit   
