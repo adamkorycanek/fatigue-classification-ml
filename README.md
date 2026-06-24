@@ -54,3 +54,9 @@ Applied healthcare-oriented machine learning workflow
 Technologies
 
 Python, Scikit-learn, Pandas, NumPy, Matplotlib
+
+
+## Note
+
+Original system included MATLAB-based measurement hardware integration.
+For reproducibility, this repository includes a standalone Streamlit interface using precomputed features.
