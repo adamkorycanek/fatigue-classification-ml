@@ -3,9 +3,7 @@ Fatigue Classification using Biomedical Impedance Data
 Overview
 
 This project implements a machine learning pipeline for classification of fatigue levels based on biomedical impedance measurements collected from multiple subjects.
-
 The dataset was acquired during an experimental biomedical study as part of a Master's thesis in Biomedical Engineering.
-
 A Random Forest classifier is used to classify fatigue levels into three categories: low, medium, and high. The model is evaluated using subject-independent validation.
 
 Problem Definition
@@ -16,7 +14,7 @@ Dataset
 
 Real biomedical dataset collected in experimental conditions
 Multi-subject structure (subject variability considered)
-Features derived from normalized impedance measurements at multiple frequencies
+Features derived from normalized impedance measurements at two frequencies
 
 Methodology
 
@@ -31,7 +29,7 @@ Model
 
 Random Forest (scikit-learn)
 500 estimators (CV stage)
-max_depth=4–5 (overfitting control)
+max_depth=4 (overfitting control)
 class_weight="balanced"
 
 Evaluation
